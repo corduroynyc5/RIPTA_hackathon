@@ -8,6 +8,7 @@ ax1 = fig.add_subplot(1,1,1)
 
 def animate(i):
     pullData = open("output.txt","r").read()
+    #TODO: tokenize output.txt by sentence.. ideally convert it to a dictionary
     dataArray = pullData.split('\n')
     xar = []
     yar = []
